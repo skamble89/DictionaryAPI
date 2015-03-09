@@ -1,0 +1,1 @@
+F:\Projects\DictionaryAPI\DictionaryAPI.Tests\obj\Debug\DictionaryAPI.Tests.csprojResolveAssemblyReference.cache

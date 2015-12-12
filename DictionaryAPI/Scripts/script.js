@@ -44,6 +44,7 @@
         }
 
         if (word) {
+            div.innerText = div.textContent = '';
             div.style.display = 'block';
             div.style.top = y + 'px';
             div.style.left = x + 'px';
@@ -61,7 +62,7 @@
                     for (var i = 0, j = data.definitionsField.length; i < j; i++) {
                         meaningArr.push(data.definitionsField[i].wordDefinitionField);
                     }
-                    div.innerText = meaningArr.join('');
+                    div.innerText = div.textContent = meaningArr.join('');
                 })
                 .always(function () {
                     div.removeChild(img);
@@ -180,6 +181,9 @@
         meaning: function (word) {
             return ajax({
                 url: 'http://localhost:55140/api/define?q=' + word,
+                headers: {
+                    Accept: 'application/json'
+                }
             });
         }
     };

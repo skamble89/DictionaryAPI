@@ -4,12 +4,11 @@
     div.style.position = 'absolute';
     div.style.width = '300px';
     div.style.height = '200px';
-    div.style.backgroundColor = 'rgb(255, 241, 179)';
+    div.style.backgroundColor = 'rgb(255, 254, 250)';
     div.style.overflow = 'auto';
     div.style.padding = '20px';
     div.style.zIndex = 100;
     div.style.display = 'none';
-    div.style.border = '1px solid black';
     div.style.font = '13px sans-serif';
     div.style.boxShadow = '3px 3px 10px';
     document.body.appendChild(div);

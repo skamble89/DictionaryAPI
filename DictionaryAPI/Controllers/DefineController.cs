@@ -11,10 +11,16 @@ namespace DictionaryAPI.Controllers
 {
     public class DefineController : ApiController
     {
-        public WordDefinition Get(string q)
+        public IDictionary dictionary { get; set; }
+
+        public DefineController(IDictionary dict)
         {
-            DictServiceSoapClient client = new DictServiceSoapClient();
-            return client.DefineInDict(ConfigurationManager.AppSettings["DictionaryId"].ToString(), q);
+            this.dictionary = dict;
+        }
+
+        public Definition Get(string q)
+        {            
+            return this.dictionary.Define(q);
         }
     }
 }

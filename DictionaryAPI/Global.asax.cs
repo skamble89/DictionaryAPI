@@ -16,6 +16,7 @@ namespace DictionaryAPI
     {
         protected void Application_Start()
         {
+            DI.Register(GlobalConfiguration.Configuration);
             WebApiConfig.Register(GlobalConfiguration.Configuration);            
         }
     }

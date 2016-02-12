@@ -127,3 +127,12 @@ F:\Webapp\DictionaryAPI\DictionaryAPI\bin\zh-Hant\System.Spatial.resources.dll
 F:\Webapp\DictionaryAPI\DictionaryAPI\obj\Debug\DictionaryAPI.csprojResolveAssemblyReference.cache
 F:\Webapp\DictionaryAPI\DictionaryAPI\obj\Debug\DictionaryAPI.dll
 F:\Webapp\DictionaryAPI\DictionaryAPI\obj\Debug\DictionaryAPI.pdb
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.ServiceLocation.dll
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.Unity.Configuration.dll
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.Unity.dll
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.ServiceLocation.pdb
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.ServiceLocation.xml
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.Unity.xml
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.Unity.Configuration.xml
+F:\Webapp\DictionaryAPI\DictionaryAPI\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
